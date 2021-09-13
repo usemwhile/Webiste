@@ -1,0 +1,50 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I love men</title>
+    
+</head>
+<body>
+    <link rel="stylesheet" href="shadow.css">
+    <div><p1>sometimes when the rain comes I like to clouds and then I go home.</p1></div>
+           <a href="rain.html"><button class="sooper">You go rain?</button></a>
+       <a href="spook.html"><button class="spook">here is spooky</button></a>
+       <a href="zup.html"><button class="zup">Go here to buy things</button></a>
+       <button onclick="myFunction()">Press this</button>
+       <script>
+        function myFunction() {
+          alert("Uh Oh, It appears you have 69 viruses!");
+        }
+        </script>
+        <div class="wrapper">
+            <button class="button">thats really cool</button>
+            <div class="baka">
+                <a href="zup.html"><button>ON|Off</button></a>
+            </div>
+        </div>
+        <h1>I love men</h1>
+        <form id="form">
+            <input type="number" id="width">
+            <input type="number" id="height">
+            <input type="submit" value="get image">
+        </form>
+        <img alt="" id="img">
+    </body>
+    <script>
+        var from = document.getElementById('form')
+        
+        from.addEventListener('submit',function(event){
+            event.preventDefault()
+
+            var width = document.getElementById('width').value
+            var height = document.getElementById('height').value
+
+            var url = 'https://picsum.photos/${width}/${height}'
+
+            var image = document.getElementById('img')
+            image.src = url
+        })
+    </script>
+</html>

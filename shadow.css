@@ -1,0 +1,60 @@
+
+p1{
+    font-family: tahoma, sans-serif;
+    color: black;
+    font-size: 19px;
+    text-align: center;
+}
+body{
+    background-color: lavender;
+}
+img{
+    border-radius: 50px;
+    border: 20px double blue;
+}
+.sooper{
+    border-radius: 2px;
+    border: none;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: 0.4s;
+    position: relative;
+}
+.sooper:hover{
+    background-color: blue;
+    color: white;
+}
+.spook{
+    border-radius: 2px;
+    border: none;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: 0.4s;
+    position: relative;
+
+}
+.spook:hover{
+    background-color: rgb(218, 89, 110);
+    color: white;
+}
+.sooper:active{
+line-height: 25px;
+}
+.wrapper{
+    text-align: center;
+}
+.button{
+    position: relative;
+    top: 50%;
+}
+.baka{
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
